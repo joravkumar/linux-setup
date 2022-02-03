@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudo -s
 dd if=/dev/zero of=/swapfile1 bs=1G count=16
 chown root:root /swapfile1
 chmod 0600 /swapfile1
